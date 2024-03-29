@@ -1,0 +1,16 @@
+{
+  "name": "project-tipcalc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "dead-server --host=localhost --port=4804",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mike  Pukuotukas (https://github.com/mcepulis)",
+  "license": "MIT",
+  "dependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
