@@ -12,7 +12,7 @@ checkBtnDOM.addEventListener('click', function () {
     console.log(bill, rate);
     let str = "";
     for (let i = 0; i < rate.length; i++) {
-        if(rate[i] >= "0" && rate[i] < "9") {
+        if(rate[i] >= "0" && rate[i] <= "9") {
                 str += rate[i];
         }
     }
