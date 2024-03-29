@@ -8,23 +8,22 @@
 </head>
 <body>
     <section class="main">
-        <div class="container pal">
+        <div class="container">
             <h1 class="title">TIP Calculator</h1>
-           
-            <form action="" class="bmi-box">
-                <div class="heightBox">
-                    <label class="labelHeight text-size" for="">Bill:</label>
+            <form action="" class="tip-box">
+                <div class="billBox">
+                    <label class="labelBill text-size" for="">Bill:</label>
                     <input
                                 id="bill-input"
                                 type="text"
-                                class="input-text"
+                                class="input-text inputScreen"
                                 placeholder="eu"
                                 />
                 </div>
-                <div class="weightBox">
-                    <label class="labelWeight text-size" for="">Rate Service:</label>
+                <div class="rateBox">
+                    <label class="labelRate text-size" for="">Rate:</label>
                     <div class="tipRate">
-                        <select class="dropDown input-text" id="rate-input">
+                        <select class="dropDown input-text inputScreen" id="rate-input">
                             <option>-- Select an option --</option>
                             <option id="poor">5% - Poor</option>
                             <option id="good">10% - Good</option>
@@ -34,13 +33,13 @@
                 </div>
             </form>
             <button class="check-btn btn">Calculate</button>
-            <div id="screen" class="resultBox">
-                <p id="result" class="results text-size">Tip:</p>
-                <p id="result" class="text-size2"></p>
+            <div class="resultBox">
+                <p class="results text-size">Tip:</p>
+                <p id="resultTip" class="text-size input-text inputScreen"></p>
             </div>
-            <div id="screen" class="resultBox">
-                <p id="result" class="results text-size">Result:</p>
-                <p id="result" class="text-size2"></p>
+            <div class="resultBox">
+                <p class="results text-size">Result:</p>
+                <p id="result" class="text-size input-text inputScreen"></p>
             </div>
         </div>
     </section>
